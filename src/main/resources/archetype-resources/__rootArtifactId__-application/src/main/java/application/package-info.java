@@ -2,4 +2,4 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
         
-package ${package}.app;
+package ${package}.application;
