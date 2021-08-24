@@ -10,7 +10,7 @@
 ## application模块
 应用层，负责领域层的调度和数据查询，依赖domain模块和infra模块，
 
-## ui模块
+## server模块
 网络层，负责定义和提供对外的各种协议的接口，例如：HTTP、gRPC、Dubbo等，只依赖app模块
 
 # maven archetype

@@ -13,8 +13,7 @@
         <module>${artifactId}-application</module>
         <module>${artifactId}-domain</module>
         <module>${artifactId}-infrastructure</module>
-        <module>${artifactId}-ui</module>
-        <module>${artifactId}-starter</module>
+        <module>${artifactId}-server</module>
     </modules>
 
     <properties>
@@ -78,13 +77,7 @@
 
             <dependency>
                 <groupId>${groupId}</groupId>
-                <artifactId>${artifactId}-ui</artifactId>
-                <version>${version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>${groupId}</groupId>
-                <artifactId>${artifactId}-starter</artifactId>
+                <artifactId>${artifactId}-server</artifactId>
                 <version>${version}</version>
             </dependency>
         </dependencies>
